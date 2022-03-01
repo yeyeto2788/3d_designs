@@ -1,6 +1,6 @@
 # 3D Designs
 
-Repository to hold all 3D designs.
+Repository to hold all 3D designs to 3D print or laser cut.
 
 - [3D Designs](#3d-designs)
   - [Repository structure](#repository-structure)
@@ -87,7 +87,6 @@ Repository to hold all 3D designs.
   Locale: English/United States (en_US)
   ```
 </details>
-
 
 ---
 
