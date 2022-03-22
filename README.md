@@ -6,7 +6,11 @@ Repository to hold all 3D designs to 3D print or laser cut.
   - [Repository structure](#repository-structure)
   - [FreeCAD version](#freecad-version)
   - [Designs](#designs)
+    - [air_assist_hose_adapter](#air_assist_hose_adapter)
+    - [glass_holder](#glass_holder)
     - [hole_jig](#hole_jig)
+    - [laser_cutter_door_latch](#laser_cutter_door_latch)
+    - [laser_cutter_enclosure](#laser_cutter_enclosure)
     - [notebook_cover](#notebook_cover)
     - [paper_briquette_maker](#paper_briquette_maker)
     - [parametric_box](#parametric_box)
@@ -24,14 +28,33 @@ Repository to hold all 3D designs to 3D print or laser cut.
   ```
   ./
   ├── README.md
+  ├── air_assist_hose_adapter
+  │   ├── Images
+  │   ├── STEP
+  │   ├── STL
+  │   └── air_assist_hose_adapter.FCStd
   ├── docs
   │   └── images
+  ├── glass_holder
+  │   ├── Images
+  │   ├── STEP
+  │   ├── STL
+  │   └── glass_holder.FCStd
   ├── hole_jig
   │   ├── Images
   │   ├── PDF
   │   ├── STEP
   │   ├── STL
   │   └── hole_jig.FCStd
+  ├── laser_cutter_door_latch
+  │   ├── Images
+  │   ├── STEP
+  │   ├── STL
+  │   └── laser_cutter_door_latch.FCStd
+  ├── laser_cutter_enclosure
+  │   ├── Images
+  │   ├── PDF
+  │   └── laser_cutter_enclosure.FCStd
   ├── notebook_cover
   │   ├── Images
   │   ├── PDF
@@ -92,39 +115,59 @@ Repository to hold all 3D designs to 3D print or laser cut.
 
 ## Designs
 
+### air_assist_hose_adapter
+
+![Air assist hose adapter](./air_assist_hose_adapter/Images/air_assist_hose_adapter_PerspectiveCamera_ViewAxo_640_480.jpg)
+
+### glass_holder
+
+![Glass holder](./glass_holder/Images/glass_holder_PerspectiveCamera_ViewAxo_640_480.jpg)
+
 ### hole_jig
 
-![hole jig](./hole_jig/Images/hole_jig_OrthographicCamera_ViewAxo_640_480.jpg)
+![hole jig](./hole_jig/Images/hole_jig_PerspectiveCamera_ViewAxo_640_480.jpg)
 
 Tool to make holes at a certain distance.
 
+### laser_cutter_door_latch
+
+![Door latch](./laser_cutter_door_latch/Images/laser_cutter_door_latch_PerspectiveCamera_ViewAxo_640_480.jpg)
+
+Latch for top door on the laser engraver enclosure.
+
+### laser_cutter_enclosure
+
+![Laser engraver enclosure](./laser_cutter_enclosure/Images/laser_cutter_enclosure_PerspectiveCamera_ViewAxo_640_480.jpg)
+
+Enclosure for the laser engraver/cutter.
+
 ### notebook_cover
 
-![notebook_cover](./notebook_cover/Images/notebook_cover_OrthographicCamera_ViewAxo_640_480.jpg)
+![notebook_cover](./notebook_cover/Images/notebook_cover_PerspectiveCamera_ViewAxo_640_480.jpg)
 
 Notebook sleeve with pen holder
 
 ### paper_briquette_maker
 
-![paper_briquette_maker](./paper_briquette_maker/Images/paper_briquette_maker_OrthographicCamera_ViewAxo_640_480.jpg)
+![paper_briquette_maker](./paper_briquette_maker/Images/paper_briquette_maker_PerspectiveCamera_ViewAxo_640_480.jpg)
 
 Pieces to press paper pulp so a paper briquette can be made. 80mm PVC pipe it is needed so it serve as a container while pressing down to get the water out.
 
 ### parametric_box
 
-![parametric_box](./parametric_box/Images/parametric_box_OrthographicCamera_ViewAxo_640_480.jpg)
+![parametric_box](./parametric_box/Images/parametric_box_PerspectiveCamera_ViewAxo_640_480.jpg)
 
 Parametric box for electronic projects, it uses an spreadsheet to change the size of it.
 
 ### pulpropeller
 
-![pulpropeller](./pulpropeller/Images/pulpropeller_OrthographicCamera_ViewAxo_640_480.jpg)
+![pulpropeller](./pulpropeller/Images/pulpropeller_PerspectiveCamera_ViewAxo_640_480.jpg)
 
 Device to shred paper soaked in water so it gets converted into pulp. It uses a 5mm rod to keep everything in place while mixing.
 
 ### soldering_iron_stand
 
-![Soldering iron stand](./soldering_iron_stand/Images/soldering_iron_stand_OrthographicCamera_ViewAxo_640_480.jpg)
+![Soldering iron stand](./soldering_iron_stand/Images/soldering_iron_stand_PerspectiveCamera_ViewAxo_640_480.jpg)
 
 Laser cut soldering iron stand made with 5mm plywood.
 
@@ -138,7 +181,7 @@ Laser cut soldering iron stand made with 5mm plywood.
   ```
 - Grab images
   ```
-  tree -i | grep -i OrthographicCamera_ViewAxo_640_480.jpg
+  tree -i | grep -i PerspectiveCamera_ViewAxo_640_480.jpg
   ```
 - Remove backup files from repository:
   ```
